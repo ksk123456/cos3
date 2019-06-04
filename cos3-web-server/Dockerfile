@@ -1,9 +1,9 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER shencq <shencq@g-soft.com.cn>
+MAINTAINER kangsk <gisksk@163.com>
 VOLUME /tmp
 ARG JAR_FILE
 ARG PROJECT_NAME
-ENV name=${PROJECT_NAME}.jar TINI_VERSION=v0.18.0 TZ=Asia/Shanghai
+ENV name=${PROJECT_NAME}.jar TINI_VERSION=v0.18.0 TZ=Asia/WuHan
 COPY ${JAR_FILE} ${PROJECT_NAME}.jar
 RUN apk add --no-cache tini && apk add tzdata && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ENTRYPOINT ["/sbin/tini", "--"]
