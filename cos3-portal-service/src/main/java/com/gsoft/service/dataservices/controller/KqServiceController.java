@@ -27,7 +27,7 @@ public class KqServiceController {
 		
 		JSONArray jsonArr = new JSONArray();
 		jsonArr.put("测试成功");
-		jsonArr.put("谢谢");
+		jsonArr.put("谢谢aaaa");
 		
 		dataJo.put("xAxis", jsonArr);
 		jo.put("data", dataJo);		
