@@ -21,7 +21,7 @@
 		<jjwt.version>0.9.0</jjwt.version>
 		<logstash-logback.version>4.11</logstash-logback.version>
 		<spring-boot-starter-redis.version>1.4.7.RELEASE</spring-boot-starter-redis.version>
-		<quartz.version>2.3.0</quartz.version>
+		<quartz.version>2.3.2</quartz.version>
 		<webmagic.version>0.7.3</webmagic.version>
 		<vertx.version>3.4.1</vertx.version>
 		<docker.image.prefix>tangram</docker.image.prefix>
