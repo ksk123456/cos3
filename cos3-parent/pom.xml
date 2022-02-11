@@ -23,7 +23,7 @@
 		<spring-boot-starter-redis.version>1.4.7.RELEASE</spring-boot-starter-redis.version>
 		<quartz.version>2.3.0</quartz.version>
 		<webmagic.version>0.7.3</webmagic.version>
-		<vertx.version>3.4.1</vertx.version>
+		<vertx.version>3.9.4</vertx.version>
 		<docker.image.prefix>tangram</docker.image.prefix>
 		<docker.repo.url>192.168.1.6:5000</docker.repo.url>
 	</properties>
